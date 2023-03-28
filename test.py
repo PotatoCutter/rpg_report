@@ -11,8 +11,8 @@ def dead_count():
 
 
 # print(script)
-
+a = input()
 while True:
     print('test')
-    if True:
+    if a == '일반공격':
         break

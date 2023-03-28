@@ -4,7 +4,7 @@ class Character:
     모든 캐릭터의 모체가 되는 클래스
     """
     def __init__(self, name, hp, power):
-        self.name = name
+        self.name = name            # default 값 ?
         self.max_hp = hp
         self.hp = hp
         self.power = power
