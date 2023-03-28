@@ -1,3 +1,4 @@
+from pick import pick
 import script
 from time import sleep
 import os
@@ -10,9 +11,8 @@ def dead_count():
         os.system('clear')  # mac, etc
 
 
-# print(script)
-a = input()
-while True:
-    print('test')
-    if a == '일반공격':
-        break
+s = 'rkaskvn'
+sel = ['a', 'v', 'c']
+
+selec, index = pick(sel, s)
+print(index, selec)

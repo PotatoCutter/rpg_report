@@ -26,11 +26,11 @@ def main():
     os.system('cls') # window 
     os.system('clear') # mac, etc               터미널 클리어
         
-    print('debug')
+    # print('debug')
     new_player.show_status()
-    print(new_player.get_death())
+    # print(new_player.get_death())
     new_enemy.show_status()
-    print(new_enemy.get_death())
+    # print(new_enemy.get_death())
     input()
 
     # while new_player.get_hp() != 0 | new_enemy.get_hp() != 0:
